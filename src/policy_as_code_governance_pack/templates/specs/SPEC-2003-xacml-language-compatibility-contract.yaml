@@ -1,0 +1,34 @@
+{
+  "schema_version": "1.0.0",
+  "kind": "spec",
+  "id": "spc:xacml-language-compatibility-contract",
+  "number": 2003,
+  "slug": "xacml-language-compatibility-contract",
+  "title": "XACML Language Compatibility Contract",
+  "status": "accepted",
+  "origin": "extension-pack",
+  "summary": "Defines XACML vocabulary and interchange compatibility where required.",
+  "body": "## Requirements\n\n- Declare supported XACML version and profiles.\n- Map request, response, combining, obligation, and advice semantics explicitly.\n- Do not imply XACML conformance from architectural vocabulary alone.",
+  "decision_date": "2026-08-10",
+  "references": [
+    "https://www.openpolicyagent.org/docs",
+    "https://docs.cedarpolicy.com/",
+    "https://www.oasis-open.org/standard/xacmlv3-0/"
+  ],
+  "supersedes": [],
+  "superseded_by": [],
+  "status_notes": [],
+  "tags": [
+    "policy-as-code",
+    "rego",
+    "cedar",
+    "xacml",
+    "policy-testing"
+  ],
+  "spec_kind": "governance",
+  "adr_ids": [
+    "adr:policy-engines-declare-language-version-and-evaluation-contract",
+    "adr:deny-paths-and-least-privilege-are-release-gated",
+    "adr:policy-artifacts-are-versioned-tested-and-promotable"
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0.0",
+  "kind": "adr",
+  "id": "adr:policy-artifacts-are-versioned-tested-and-promotable",
+  "number": 1002,
+  "slug": "policy-artifacts-are-versioned-tested-and-promotable",
+  "title": "Policy Artifacts Are Versioned Tested And Promotable",
+  "status": "accepted",
+  "origin": "extension-pack",
+  "summary": "Policy artifacts are immutable, versioned, tested, attestable, promotable, and reversible.",
+  "body": "Policy artifacts are immutable, versioned, tested, attestable, promotable, and reversible.",
+  "decision_date": "2026-08-10",
+  "references": [
+    "https://www.openpolicyagent.org/docs",
+    "https://docs.cedarpolicy.com/",
+    "https://www.oasis-open.org/standard/xacmlv3-0/"
+  ],
+  "supersedes": [],
+  "superseded_by": [],
+  "status_notes": [],
+  "tags": [
+    "policy-as-code",
+    "rego",
+    "cedar",
+    "xacml",
+    "policy-testing"
+  ]
+}

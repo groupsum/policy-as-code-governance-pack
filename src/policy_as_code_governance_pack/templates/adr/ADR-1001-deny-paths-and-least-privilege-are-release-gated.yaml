@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0.0",
+  "kind": "adr",
+  "id": "adr:deny-paths-and-least-privilege-are-release-gated",
+  "number": 1001,
+  "slug": "deny-paths-and-least-privilege-are-release-gated",
+  "title": "Deny Paths And Least Privilege Are Release Gated",
+  "status": "accepted",
+  "origin": "extension-pack",
+  "summary": "Policy releases are gated by denied-path, least-privilege, and regression evidence.",
+  "body": "Policy releases are gated by denied-path, least-privilege, and regression evidence.",
+  "decision_date": "2026-08-10",
+  "references": [
+    "https://www.openpolicyagent.org/docs",
+    "https://docs.cedarpolicy.com/",
+    "https://www.oasis-open.org/standard/xacmlv3-0/"
+  ],
+  "supersedes": [],
+  "superseded_by": [],
+  "status_notes": [],
+  "tags": [
+    "policy-as-code",
+    "rego",
+    "cedar",
+    "xacml",
+    "policy-testing"
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "schema_version": "1.0.0",
+  "kind": "spec",
+  "id": "spc:cedar-policy-language-profile-contract",
+  "number": 2001,
+  "slug": "cedar-policy-language-profile-contract",
+  "title": "Cedar Policy Language Profile Contract",
+  "status": "accepted",
+  "origin": "extension-pack",
+  "summary": "Defines Cedar version, schema, entities, requests, permit, forbid, errors, and validation.",
+  "body": "## Requirements\n\n- Pin supported Cedar language and engine versions.\n- Validate policies against the application schema.\n- Test default deny, forbid overrides, and diagnostic handling.",
+  "decision_date": "2026-08-10",
+  "references": [
+    "https://www.openpolicyagent.org/docs",
+    "https://docs.cedarpolicy.com/",
+    "https://www.oasis-open.org/standard/xacmlv3-0/"
+  ],
+  "supersedes": [],
+  "superseded_by": [],
+  "status_notes": [],
+  "tags": [
+    "policy-as-code",
+    "rego",
+    "cedar",
+    "xacml",
+    "policy-testing"
+  ],
+  "spec_kind": "governance",
+  "adr_ids": [
+    "adr:policy-engines-declare-language-version-and-evaluation-contract",
+    "adr:deny-paths-and-least-privilege-are-release-gated",
+    "adr:policy-artifacts-are-versioned-tested-and-promotable"
+  ]
+}

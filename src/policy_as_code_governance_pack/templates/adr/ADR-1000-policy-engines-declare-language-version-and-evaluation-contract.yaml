@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0.0",
+  "kind": "adr",
+  "id": "adr:policy-engines-declare-language-version-and-evaluation-contract",
+  "number": 1000,
+  "slug": "policy-engines-declare-language-version-and-evaluation-contract",
+  "title": "Policy Engines Declare Language Version And Evaluation Contract",
+  "status": "accepted",
+  "origin": "extension-pack",
+  "summary": "Policy engines declare language, version, built-ins, data model, and evaluation semantics.",
+  "body": "Policy engines declare language, version, built-ins, data model, and evaluation semantics.",
+  "decision_date": "2026-08-10",
+  "references": [
+    "https://www.openpolicyagent.org/docs",
+    "https://docs.cedarpolicy.com/",
+    "https://www.oasis-open.org/standard/xacmlv3-0/"
+  ],
+  "supersedes": [],
+  "superseded_by": [],
+  "status_notes": [],
+  "tags": [
+    "policy-as-code",
+    "rego",
+    "cedar",
+    "xacml",
+    "policy-testing"
+  ]
+}
